@@ -1,0 +1,63 @@
+package com.csc.xiezi44.bean;
+
+public class Cart {
+	private Integer gid;
+	private Integer sid;
+	private String sname;
+	private Double size;
+	private String color;
+	private String kucun;
+	private Integer money;
+	private Integer count;
+	public Integer getGid() {
+		return gid;
+	}
+	public void setGid(Integer gid) {
+		this.gid = gid;
+	}
+	public Integer getSid() {
+		return sid;
+	}
+	public void setSid(Integer sid) {
+		this.sid = sid;
+	}
+	public String getSname() {
+		return sname;
+	}
+	public void setSname(String sname) {
+		this.sname = sname;
+	}
+	public Double getSize() {
+		return size;
+	}
+	public void setSize(Double size) {
+		this.size = size;
+	}
+	public String getColor() {
+		return color;
+	}
+	public void setColor(String color) {
+		this.color = color;
+	}
+	public String getKucun() {
+		return kucun;
+	}
+	public void setKucun(String kucun) {
+		this.kucun = kucun;
+	}
+	public Integer getMoney() {
+		return money;
+	}
+	public void setMoney(Integer money) {
+		this.money = money;
+	}
+	public Integer getCount() {
+		return count;
+	}
+	public void setCount(Integer count) {
+		this.count = count;
+	}
+	
+	
+
+}
