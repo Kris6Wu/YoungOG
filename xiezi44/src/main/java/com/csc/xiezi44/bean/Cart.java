@@ -5,6 +5,9 @@ public class Cart {
 	private Integer sid;
 	private Integer uid;
 	private Integer shuliang;
+	private String color;
+	private Integer size;
+	
 	public Integer getCid() {
 		return cid;
 	}
@@ -29,6 +32,19 @@ public class Cart {
 	public void setShuliang(Integer shuliang) {
 		this.shuliang = shuliang;
 	}
+	public String getColor() {
+		return color;
+	}
+	public void setColor(String color) {
+		this.color = color;
+	}
+	public Integer getSize() {
+		return size;
+	}
+	public void setSize(Integer size) {
+		this.size = size;
+	}
+	
 	
 
 }

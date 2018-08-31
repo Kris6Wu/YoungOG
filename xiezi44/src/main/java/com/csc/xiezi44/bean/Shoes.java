@@ -3,9 +3,10 @@ package com.csc.xiezi44.bean;
 public class Shoes {
 	private Integer sid;
 	private String sname;
-	private String color;
-	private Double size;
-	private String kucun;
+	private String image;
+	private Double price;
+	private Integer stock;
+	private Double pingjia;
 	public Integer getSid() {
 		return sid;
 	}
@@ -18,25 +19,29 @@ public class Shoes {
 	public void setSname(String sname) {
 		this.sname = sname;
 	}
-	public String getColor() {
-		return color;
+	public String getImage() {
+		return image;
 	}
-	public void setColor(String color) {
-		this.color = color;
+	public void setImage(String image) {
+		this.image = image;
 	}
-	public Double getSize() {
-		return size;
+	public Double getPrice() {
+		return price;
 	}
-	public void setSize(Double size) {
-		this.size = size;
+	public void setPrice(Double price) {
+		this.price = price;
 	}
-	public String getKucun() {
-		return kucun;
+	public Integer getStock() {
+		return stock;
 	}
-	public void setKucun(String kucun) {
-		this.kucun = kucun;
+	public void setStock(Integer stock) {
+		this.stock = stock;
+	}
+	public Double getPingjia() {
+		return pingjia;
+	}
+	public void setPingjia(Double pingjia) {
+		this.pingjia = pingjia;
 	}
 	
-	
-
 }

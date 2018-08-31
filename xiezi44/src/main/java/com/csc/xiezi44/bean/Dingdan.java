@@ -3,11 +3,8 @@ package com.csc.xiezi44.bean;
 public class Dingdan {
 	private Integer did;
 	private Integer uid;
-	private Integer money;
-	private String uname;
-	private Integer tel;
 	private Integer sid;
-	private String address;
+	private Integer shuliang;
 	private String color;
 	private Double size;
 	public Integer getDid() {
@@ -22,35 +19,17 @@ public class Dingdan {
 	public void setUid(Integer uid) {
 		this.uid = uid;
 	}
-	public Integer getMoney() {
-		return money;
-	}
-	public void setMoney(Integer money) {
-		this.money = money;
-	}
-	public String getUname() {
-		return uname;
-	}
-	public void setUname(String uname) {
-		this.uname = uname;
-	}
-	public Integer getTel() {
-		return tel;
-	}
-	public void setTel(Integer tel) {
-		this.tel = tel;
-	}
 	public Integer getSid() {
 		return sid;
 	}
 	public void setSid(Integer sid) {
 		this.sid = sid;
 	}
-	public String getAddress() {
-		return address;
+	public Integer getShuliang() {
+		return shuliang;
 	}
-	public void setAddress(String address) {
-		this.address = address;
+	public void setShuliang(Integer shuliang) {
+		this.shuliang = shuliang;
 	}
 	public String getColor() {
 		return color;
@@ -65,6 +44,4 @@ public class Dingdan {
 		this.size = size;
 	}
 	
-	
-
 }

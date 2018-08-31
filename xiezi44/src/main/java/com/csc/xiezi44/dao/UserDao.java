@@ -23,7 +23,7 @@ public interface UserDao {
 	public void update(User user,@Param(value = "name") String name);
 
 	@Select("select * from user where uname=#{uname}")
-	public List<User> selectAll(@Param(value = "uname")String uname);
+	public User selectAll(@Param(value = "uname")String uname);
 	
 	
 }

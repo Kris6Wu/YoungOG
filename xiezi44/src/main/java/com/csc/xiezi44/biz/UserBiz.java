@@ -33,7 +33,7 @@ public class UserBiz {
 		}
 		
 	}
-	public List<User> selectAll(String s) {
+	public User selectAll(String s) {
 		return ud.selectAll(s);
 		
 	}
